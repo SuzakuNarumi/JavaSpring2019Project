@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WeightLiftingController">
+   <children>
+      <VBox layoutX="-3.0" layoutY="-3.0" prefHeight="608.0" prefWidth="507.0" AnchorPane.bottomAnchor="-5.0" AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="-4.0" AnchorPane.topAnchor="-3.0">
+         <children>
+            <HBox prefHeight="179.0" prefWidth="507.0" />
+            <TableView fx:id="Tableview" prefHeight="433.0" prefWidth="500.0">
+              <columns>
+                <TableColumn fx:id="column1" prefWidth="100.0" text="Weight Lifters" />
+                <TableColumn fx:id="column2" minWidth="0.0" prefWidth="100.0" text="Weight (lbs)" />
+                  <TableColumn fx:id="column3" prefWidth="100.0" text="Bench Press" />
+                  <TableColumn fx:id="column4" prefWidth="100.0" text="Squat" />
+                  <TableColumn fx:id="column5" prefWidth="100.0" text="Dead Lift" />
+              </columns>
+            </TableView>
+         </children></VBox>
+   </children>
+</AnchorPane>
